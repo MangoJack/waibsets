@@ -1,0 +1,19 @@
+# 内容：国内网站规则（直连）
+# 基于 Chrome 历史记录 2026-04-12 生成
+# 策略：DIRECT
+
+# ========== 哔哩哔哩 ==========
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilivideo.com
+
+# ========== 国内常用（按需启用） ==========
+# DOMAIN-SUFFIX,baidu.com
+# DOMAIN-SUFFIX,taobao.com
+# DOMAIN-SUFFIX,tmall.com
+# DOMAIN-SUFFIX,jd.com
+# DOMAIN-SUFFIX,qq.com
+# DOMAIN-SUFFIX,weixin.com
+# DOMAIN-SUFFIX,163.com
+# DOMAIN-SUFFIX,aliyun.com
+# DOMAIN-SUFFIX,tencent.com
