@@ -4,7 +4,26 @@
 # TOTAL: 587
 
 payload:
-  - '*m-team*'
+  # ========== Chrome 历史记录补充 (2026-04-12, 单周高频访问) ==========
+  # 用途：国内不可直连 / 访问受限的域名，走代理
+  - '+.github.com'
+  - '+.youtube.com'
+  - '+.dash.cloudflare.com'
+  - '+.dmit.io'
+  - '+.vps.hosting'
+  - '+.www.hostbuf.com'
+  - '+.cloud.colocrossing.com'
+  - '+.www.vultr.com'
+  - '+.kejilion.pro'
+  - '+.www.qichiyu.com'
+  - '+.surrealdb.com'
+  - '+.learn.microsoft.com'
+  - '+.www.amazon.com'
+  - '+.my.racknerd.com'
+  - '+.www.spaceship.com'
+  - '+.checkout.stripe.com'
+  # ------------------------------------------------------------------------
+  - '+.7pzzv.us'
   - '*quickconnect*'
   - '*synology*'
   - '+.00333118.com'

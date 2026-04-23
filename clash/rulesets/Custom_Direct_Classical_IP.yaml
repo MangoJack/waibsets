@@ -1,9 +1,14 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 7
+# TOTAL: 7 + 2 (chrome-history-0412 supplement)
 
 payload:
+  # ========== Chrome 历史记录补充 (2026-04-12, 单周高频访问) ==========
+  # 用途：自管 VPS 直连（内网/境外 IP）
+  - IP-CIDR,66.154.114.51/32,no-resolve
+  - IP-CIDR,154.17.24.64/32,no-resolve
+  # ------------------------------------------------------------------------
   - IP-CIDR,108.174.48.100/32,no-resolve
   - IP-CIDR,198.41.192.0/24,no-resolve
   - IP-CIDR,198.41.200.0/24,no-resolve
