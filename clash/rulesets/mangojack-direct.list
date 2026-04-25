@@ -1,0 +1,26 @@
+# MangoJack Direct Rules
+# Updated: 2026-04-24
+
+# Port Rules
+DST-PORT,1-79
+DST-PORT,81-442
+DST-PORT,444-65535
+
+# IP Rules
+IP-CIDR,66.154.114.51/32,no-resolve
+IP-CIDR,154.17.24.64/32,no-resolve
+IP-CIDR,108.174.48.100/32,no-resolve
+IP-CIDR,198.41.192.0/24,no-resolve
+IP-CIDR,198.41.200.0/24,no-resolve
+IP-CIDR,218.78.7.16/32,no-resolve
+IP-CIDR,5.5.5.5/32,no-resolve
+IP-CIDR,98.126.27.164/32,no-resolve
+SRC-PORT,41641
+
+# Domain Rules
+# === Chrome 历史补充（国内可达直连）===
++.bilibili.com
++.douyin.com
++.namesilo.com
++.huaweicloud.com
++.bangumi.tv
