@@ -266,12 +266,12 @@ function operator(proxies) {
 
         for (var i = 0; i < RULES.length; i++) {
             if (ip.indexOf(RULES[i][0]) === 0) {
-                p.name = RULES[i][1] + ' ' + RULES[i][2] + '-' + p.name;
+                p.name = RULES[i][1] + ' ' + RULES[i][2] + ' - ' + p.name;
                 return p;
             }
         }
 
-        p.name = '🌍 其他 | ' + p.name;
+        p.name = '🌍 其他 - ' + p.name;
         return p;
     });
 }
